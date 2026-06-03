@@ -4,5 +4,5 @@ export const pool = mysql.createPool({
     host: 'localhost',
     user: 'root', 
     password: '', 
-    database: 'crud_db' // Cambia por el nombre de tu BD
+    database: 'crud_db' 
 });

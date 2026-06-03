@@ -8,7 +8,6 @@ const PORT = 3001;
 app.use(cors());          
 app.use(express.json());  
 
-// Ruta base
 app.use('/categorias', categoriaRoutes);
 
 app.listen(PORT, () => {
